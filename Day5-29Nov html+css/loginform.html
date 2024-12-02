@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIN</title>
+</head>
+<body>
+    <center>
+        <h1>SignIN Page</h1>
+    </center>
+    <hr>
+    <form method="post" action="index.html">
+    <fieldset>
+        <legend>Login Form</legend>
+        <br>
+        <label>Enter Username</label>
+        <input type="text" required name="Username">
+        <br><br>
+        <label>Enter Password</label>
+        <input type="password" required name="password">
+        <br><br>
+        <input type="submit" value="submit">
+        <button>cancel</button>
+        <input type="reset" value="clear" oneclick="msg()">
+    </fieldset>
+</form>
+<script>
+    function msg()
+    {
+        alert("Welcome to our services!!")
+    }
+</script>
+</body>
+</html>
